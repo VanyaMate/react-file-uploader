@@ -1,0 +1,27 @@
+.container {
+    min-width       : 120px;
+    max-width       : 120px;
+    min-height      : 120px;
+    max-height      : 120px;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+    border          : 1px solid #EEE;
+    border-radius   : 10px;
+    gap             : 5px;
+
+    .title {
+        color         : #111;
+        width         : 90px;
+        text-align    : center;
+        text-overflow : ellipsis;
+        overflow      : hidden;
+    }
+
+    .icon {
+        max-width     : 105px;
+        max-height    : 90px;
+        border-radius : 10px;
+    }
+}
